@@ -10,7 +10,7 @@ int main() {
     }
     for (int i = 2; i <= 12; i++) {
         a[i][1] = i;
-        cout << a[i][0] << " occurence(s) of " << a[i][1] << endl;
+        cout << a[i][0] << " occurrence(s) of the sum " << a[i][1] << endl;
     }
     cout << endl;
     for (int j = 2; j < 11; j++) {
@@ -25,7 +25,16 @@ int main() {
             }
         }
     }
-    for (int i = 2; i <= 12; i++) {
-        cout << a[i][0] << " occurence(s) of " << a[i][1] << endl;
+    for (int i = 11; i >= 2; i -= 2) {
+        // switch a[i] and a[i + 1]
+        int temp = a[i][0];
+        a[i][0] = a[i + 1][0];
+        a[i + 1][0] = temp;
+        temp = a[i][1];
+        a[i][1] = a[i + 1][1];
+        a[i + 1][1] = temp;
+    }
+    for (int i = 12; i >= 2; i--) {
+        cout << a[i][0] << " occurrence(s) of the sum " << a[i][1] << endl;
     }
 }
