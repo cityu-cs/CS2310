@@ -1,0 +1,27 @@
+Welcome to the University, what do you want to do?
+Input the number of Professors:
+Input the information of Professors (name, birth_year, lectures_number, subject):
+All Professors hired. What do you want to do next?
+Input the number of Professors:
+Input the information of Professors (name, birth_year, lectures_number, subject):
+All Professors hired. What do you want to do next?
+Input the number of Professors:
+Input the information of Professors (name, birth_year, lectures_number, subject):
+All Professors hired. What do you want to do next?
+Input the name of the Professors you want to assign:
+Succeed! What do you want to do next?
+Input the name of the Professors you want to assign:
+Succeed! What do you want to do next?
+Input the name of the Professors you want to assign:
+Succeed! What do you want to do next?
+Input the name of the Professors you want to assign:
+All Professors are busy. What do you want to do next?
+Professors in the university:
+Number of History lectures available: 0
+Prof1 1983 0
+Number of Science lectures available: 0
+Prof2 1983 0
+Number of Engineering lectures available: 0
+Prof3 1992 0
+All Professors listed. What do you want to do next?
+Have a nice day, bye!

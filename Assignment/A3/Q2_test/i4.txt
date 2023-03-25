@@ -1,0 +1,19 @@
+H
+1
+Prof1 1993 2 Science
+L
+A
+Prof1
+A
+Prof1
+A
+Prof1 
+H 
+2
+Prof2 1973 1 History
+Prof3 1962 2 Science
+L
+A 
+Prof3
+L
+Q

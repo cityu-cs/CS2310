@@ -1,0 +1,16 @@
+H
+6
+Prof1 1975 1 History
+Prof2 1991 3 Science
+Prof3 1982 3 Engineering
+Prof4 1997 2 History
+Prof5 1960 3 Science
+Prof6 1972 3 Engineering
+L
+A
+Prof1
+A
+Prof1
+Prof3
+L
+Q
