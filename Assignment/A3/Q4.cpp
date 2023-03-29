@@ -1,25 +1,27 @@
 #include <iostream>
-#include <vector>
 using namespace std;
 
 typedef long long LL;
 int n;
-vector<int> num;
 LL tot, ans;
+int* num = NULL;
 
 LL cnt(LL x, int type);
 
 int main() {
     cout << "Enter the size of the dynamic array: ";
     cin >> n;
+    num = new int[n];
     cout << "Enter the values: ";
-    num.resize(n);
     for (int i = 0; i < n; i++) {
         cin >> num[i];
     }
     cout << "Please input the price: ";
     cin >> tot;
     cout << "The number of possible combination is: " << cnt(tot, 0) << endl;
+    delete[] num;
+    num = NULL;
+    return 0;
 }
 
 LL cnt(LL x, int type) {
