@@ -1,0 +1,30 @@
+Student 1: 
+Name: LAW Ching Nam Morris
+Student ID: 91376218
+Tel: 50001234
+
+Student 2: 
+Name: YEUNG Pok Long
+Student ID: 90119192
+Tel: 51111234
+
+Student 3: 
+Name: MA Wai Shan
+Student ID: 90152122
+Tel: 5000000
+
+Student 4: 
+Name: JIN Shutong
+Student ID: 90175890
+Tel: 53334321
+
+Student 5: 
+Name: SIN Bo Chi
+Student ID: 90250724
+Tel: 12345678
+
+Student 6: 
+Name: LAI Lai Yin
+Student ID: 90314894
+Tel: 22223333
+
