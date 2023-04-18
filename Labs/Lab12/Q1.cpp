@@ -19,8 +19,10 @@ int main() {
     ofstream fout("lab12_output.txt");
     int n;
     string line;
-    getline(fin, line);
-    n = stoi(line);
+    // getline(fin, line);
+    // n = stoi(line);
+    fin >> n;
+    fin.ignore();
     Student *s = new Student[n];
     for (int i = 0; i < n; i++) {
         /*
