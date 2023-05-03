@@ -25,3 +25,29 @@ int main() {
     scanf("%s%s", w, p);
     printf("The last position of %s is: %d\n", p, findChar(w, p));
 }
+
+/*
+#include <iostream>
+#include <cstring>
+
+int main() {
+    char str1[] = "find-character-code";
+    char str2[] = "-c";
+    int len1 = strlen(str1), len2 = strlen(str2);
+    for (int i = len1 - len2; i >= 0; i--) {
+        bool flag = true;
+        for (int j = 0; j < len2; j++) {
+            if (str1[i + j] != str2[j]) {
+                flag = false;
+                break;
+            }
+        }
+        if (flag) {
+            printf("%d\n", i);
+            return 0;
+        }
+    }
+    puts("-1");
+    return 0;
+}
+*/
